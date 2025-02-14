@@ -30,7 +30,7 @@ rm kubectl
 
 # Start Minikube
 echo "Starting Minikube..."
-minikube start --driver=docker
+minikube start --driver=docker --force
 
 echo "Minikube installation completed!"
 minikube status
