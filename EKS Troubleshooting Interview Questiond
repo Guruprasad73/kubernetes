@@ -1,0 +1,11 @@
+Top EKS Troubleshooting Part-01
+1. Your EKS cluster is running multiple microservices, and one of them is suddenly experiencing high latency and intermittent failures. How would you approach troubleshooting this issue?
+2. Your EKS cluster is using AWS ALB (Application Load Balancer) as an ingress controller. Users report that some requests are timing out while others succeed. How would you troubleshoot and resolve this issue?
+3. Your EKS cluster is experiencing intermittent DNS resolution failures—some pods are unable to resolve external domains (e.g., google.com), while others work fine. How would you troubleshoot and fix this issue?
+4. Your EKS cluster has a high number of pod evictions, and some workloads are frequently getting evicted and rescheduled across nodes. How would you troubleshoot and resolve this issue?
+5. One of your EKS pods is repeatedly getting OOMKilled (Out of Memory Killed). How would you troubleshoot and resolve this issue?
+6. One of your EKS pods is stuck in a CrashLoopBackOff state. How would you troubleshoot and resolve this issue?
+7. When a pod fails to resolve an external or internal domain, DNS resolution issues might be the root cause. Here's how to systematically debug and fix the problem.
+8. You notice that one of your pods in Amazon EKS is stuck in the ContainerCreating state for an extended period. How would you troubleshoot and resolve this issue?
+9. Your EKS worker nodes are in a NotReady state, and workloads are not running properly.
+How would you troubleshoot this issue step by step?
